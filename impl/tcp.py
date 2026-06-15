@@ -120,7 +120,6 @@ class TCPServer:
             events = self._sel.select(timeout=0.5)
             for key, _mask in events:
                 callback = key.data
-                print(callback)
                 try:
                     callback(key.fileobj)
                 except Exception as e:
