@@ -3,7 +3,7 @@ import argparse
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Sistema de Senhas (SAAS) - Modulos Distribuidos"
+        description="Sistema de Senhas (SASE) - Modulos Distribuidos"
     )
     parser.add_argument(
         "modulo",
